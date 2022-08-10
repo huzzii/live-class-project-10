@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url("/assets/retro-living-room-interior-design.jpg") no-repeat fixed center;
+    background-size: 100% 100%;
+}
+
+nav{
+    display: flex;
+    margin: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo>h2{
+    color: #fff;
+    font-size: 30px;
+}
+
+.nav-items{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.contact-nav{
+    display: flex;
+    gap: 10px;
+}
+
+.call-icon{
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(204deg) brightness(108%) contrast(101%);
+    width: 50px;
+    align-self: flex-end;
+}
+
+.phone-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.phone-wrapper>span{
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 19px;
+}
+
+.phone-wrapper>a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1.3px;
+}
+
+.big-outline{
+    width: 80vw;
+    height: 2px;
+    background-color: #fff;
+    /* position: absolute;
+    top: 30%; */
+    float: right;
+    margin-right: 50px;
+}
+
+.clr{
+    clear: both;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header-top, .header-bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+
+.header-text{
+    width: 60vw;
+    align-self: flex-end;
+    color: #fff;
+    font-weight: 900;
+    font-size: 70px;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+}
+
+
+.btn{
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    height: fit-content;
+    border-radius: 40px;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+}
+
+.box{
+    background-color: rgb(174 193 208 / 30%);
+    padding: 30px;
+    max-width: 300px;
+    height: fit-content;
+}
+
+.puzzle-text, .bulb-text{
+    margin-top: 25px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    word-spacing: 1.2px;
+}
+
+.bulb-box{
+    position: relative;
+    right: 65%;
+    top: 5%;
+}
+
+.sm-horizontal-line{
+    height: 60px;
+    width: 1px;
+    background-color: #fff;
+    position: relative;
+    left: 70%;
+}
+
+.sm-vertical-line{
+    height: 1px;
+    width: 60px;
+    background-color: #fff;
+    position: relative;
+    left: 270px;
+    bottom: 80px;
+}
+
+.sm-circle{
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+
+.puzzle-sm-circle{
+    position: relative;
+    left: 66%;
+}
+.bulb-sm-circle{
+    position: relative;
+    left: 330px;
+    bottom: 94px;
+}
