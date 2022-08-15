@@ -115,6 +115,7 @@ header{
     border-radius: 40px;
     font-weight: 900;
     letter-spacing: 1.3px;
+    cursor: pointer;
 }
 
 .box{
