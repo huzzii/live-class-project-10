@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url("/assets/retro-living-room-interior-design.jpg") no-repeat fixed center;
+    background: url("./assets/retro-living-room-interior-design.jpg") no-repeat fixed center;
     background-size: 100% 100%;
 }
 
